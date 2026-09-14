@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Visit | Varinsky</title>
+  <meta name="description" content="Mon–Fri 7:30–18:00 · Sat 8:00–14:00" />
+  <meta name="theme-color" content="#111111" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+
+  <header class="top">
+    <div class="shell bar">
+      <a class="logo" href="index.html">Varinsky</a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" data-nav-toggle>
+        <span></span><span></span><span></span>
+      </button>
+      <nav data-nav><a href="index.html">Home</a><a href="about.html">About</a><a href="offerings.html">Offerings</a><a href="gallery.html">Gallery</a><a href="visit.html" class="on">Visit</a><a href="contact.html">Contact</a></nav>
+      <a class="cta" href="contact.html" data-open-book>Book now</a>
+    </div>
+  </header>
+  <main class="page">
+    <section class="page-hero"><div class="shell">
+      <p class="eyebrow">Visit</p>
+      <h1>Hours &amp; location</h1>
+      <p class="lead">Varinsky sits in San Diego, CA, close to everyday foot traffic. Ask the desk about parking and the easiest entrance when you arrive.</p>
+    </div></section>
+    <section class="block"><div class="shell visit-grid">
+      <aside class="card">
+        <p class="eyebrow">Find us</p>
+        <p><strong>Varinsky</strong></p>
+        <p>350 Fifth Avenue<br/>San Diego, CA</p>
+        <p><strong>Hours</strong><br/>Mon–Fri 7:30–18:00 · Sat 8:00–14:00</p>
+        <p><strong>Phone</strong><br/><a href="tel:+16195550155">+1 (619) 555-0155</a></p>
+          <p><strong>Support</strong><br/><span class="mail-plain" data-copy-mail>support@varinsky.com</span>
+            <button type="button" class="copy-btn" data-copy="support@varinsky.com">Copy</button></p>
+        <div class="card-actions">
+          <a class="btn solid" href="https://www.google.com/maps/search/?api=1&query=350+Fifth+Avenue%2C+San+Diego%2C+CA" target="_blank" rel="noopener">Open map</a>
+          <button type="button" class="btn quiet" data-open-book>Message us</button>
+        </div>
+      </aside>
+      <div>
+        <h2>Before you arrive</h2>
+        <p class="lead">Find us at 350 Fifth Avenue, San Diego, CA. Call +1 (619) 555-0155 or write to support@varinsky.com. We reply during business hours with clear next steps.</p>
+        <ul class="checks"><li>Automotive consultations</li>
+<li>Appointments & walk-ins when capacity allows</li>
+<li>Clear pricing before you commit</li>
+<li>Follow-up support after your visit</li>
+<li>Gift options available</li></ul>
+        <img class="solo wide" src="assets/img-6.jpg" alt="visit" />
+        <div class="map-wrap">
+          <iframe title="Map — Varinsky" src="https://maps.google.com/maps?q=350+Fifth+Avenue%2C+San+Diego%2C+CA&z=15&output=embed" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          <p class="map-note"><a href="https://www.google.com/maps/search/?api=1&query=350+Fifth+Avenue%2C+San+Diego%2C+CA" target="_blank" rel="noopener">Open in Google Maps →</a></p>
+        </div>
+      </div>
+    </div></section>
+    <section class="block tint"><div class="shell">
+      <p class="eyebrow">Flow</p>
+      <h2>From first contact to return visit</h2>
+      <ol class="process"><li><span>01</span><div><h3>Inspect</h3><p>Digital report with photos.</p></div></li>
+<li><span>02</span><div><h3>Approve</h3><p>Prioritized fixes.</p></div></li>
+<li><span>03</span><div><h3>Repair</h3><p>OEM or quality parts noted.</p></div></li>
+<li><span>04</span><div><h3>Road test</h3><p>Before you pay.</p></div></li></ol>
+    </div></section>
+  </main>
+
+  <footer class="foot">
+    <div class="shell foot-grid">
+      <div>
+        <strong>Varinsky</strong>
+        <p>Repairs with photos on the estimate.</p>
+        <p class="foot-meta">350 Fifth Avenue<br/>San Diego, CA</p>
+      </div>
+      <div>
+        <p class="fh">Explore</p>
+        <a href="about.html">About</a>
+        <a href="offerings.html">Offerings</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="visit.html">Hours &amp; map</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <p class="fh">Support</p>
+        <a href="tel:+16195550155">+1 (619) 555-0155</a>
+        <p class="mail-plain">support@varinsky.com</p>
+        <p class="mail-plain">hello@varinsky.com</p>
+        <p class="foot-meta">Hours<br/>Mon–Fri 7:30–18:00 · Sat 8:00–14:00</p>
+        <p class="foot-meta">© 2026 Varinsky. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <div class="mobile-cta">
+    <a href="tel:+16195550155">Call</a>
+    <button type="button" data-open-book>Book</button>
+    <a href="visit.html">Map</a>
+  </div>
+  <div class="toast" data-toast hidden></div>
+
+  <div class="modal" data-book-modal hidden>
+    <div class="modal-card">
+      <button class="modal-close" type="button" data-close-book aria-label="Close">×</button>
+      <p class="eyebrow">Quick book</p>
+      <h3>Request a spot at Varinsky</h3>
+      <p class="lead">We confirm by email during open hours.</p>
+      <form class="contact-form compact" data-quick-book data-support="support@varinsky.com">
+        <label>Name<input name="name" required placeholder="Your name" /></label>
+        <label>Email<input type="email" name="email" required placeholder="you@email.com" /></label>
+        <label>When<input name="when" required placeholder="Day &amp; time" /></label>
+        <label>Notes<textarea name="message" rows="3" placeholder="Party size, preferences…"></textarea></label>
+        <button class="btn solid" type="submit">Send request</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="lightbox" data-lightbox hidden>
+    <button class="modal-close" type="button" data-lightbox-close aria-label="Close">×</button>
+    <img data-lightbox-img alt="" />
+    <div class="lightbox-nav">
+      <button type="button" data-lightbox-prev>‹</button>
+      <button type="button" data-lightbox-next>›</button>
+    </div>
+  </div>
+  <script src="site.js"></script>
+</body></html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Varinsky</title>
+  <meta name="description" content="Contact Varinsky" />
+  <meta name="theme-color" content="#111111" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+
+  <header class="top">
+    <div class="shell bar">
+      <a class="logo" href="index.html">Varinsky</a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" data-nav-toggle>
+        <span></span><span></span><span></span>
+      </button>
+      <nav data-nav><a href="index.html">Home</a><a href="about.html">About</a><a href="offerings.html">Offerings</a><a href="gallery.html">Gallery</a><a href="visit.html">Visit</a><a href="contact.html" class="on">Contact</a></nav>
+      <a class="cta" href="contact.html" data-open-book>Book now</a>
+    </div>
+  </header>
+  <main class="page">
+    <section class="page-hero"><div class="shell">
+      <p class="eyebrow">Contact &amp; support</p>
+      <h1>Write to our team</h1>
+      <p class="lead">Send a booking request or question below. Messages go to our support desk at <strong>support@varinsky.com</strong> — we reply during open hours.</p>
+    </div></section>
+    <section class="block"><div class="shell contact-grid">
+      <div>
+        <div class="support-banner">
+          <p class="eyebrow">Support desk</p>
+          <p class="support-mail">support@varinsky.com</p>
+          <p class="lead">Use the form — stay on this page. No apps, no redirects.</p>
+        </div>
+        <h2>Send a message</h2>
+        <form class="contact-form" data-contact data-support="support@varinsky.com">
+          <label>Name<input name="name" required placeholder="Your name" autocomplete="name" /></label>
+          <label>Your email<input type="email" name="email" required placeholder="you@email.com" autocomplete="email" /></label>
+          <label>Phone<input type="tel" name="phone" placeholder="Optional" autocomplete="tel" /></label>
+          <label>Topic
+            <select name="topic" required>
+              <option value="Booking">Booking / reservation</option>
+              <option value="Support">Support / question</option>
+              <option value="Group">Group or event</option>
+              <option value="Other">Something else</option>
+            </select>
+          </label>
+          <label>Preferred date / time<input name="when" placeholder="e.g. Saturday 10am" /></label>
+          <label>Message<textarea name="message" rows="6" required placeholder="Write anything you need — we read every message."></textarea></label>
+          <button class="btn solid" type="submit">Send to support</button>
+          <p class="form-note">Delivered to <strong>support@varinsky.com</strong> · Bookings also monitored at bookings@varinsky.com</p>
+        </form>
+        <div class="form-success" data-success hidden>
+          <h3>Message received</h3>
+          <p>Thanks — our team will reply to the email you provided. Reference desk: <strong>support@varinsky.com</strong></p>
+          <button type="button" class="btn quiet" data-again>Send another message</button>
+        </div>
+      </div>
+      <div>
+        <h2>Direct lines</h2>
+        <div class="card stack-card">
+          <p><strong>Address</strong><br/>350 Fifth Avenue<br/>San Diego, CA</p>
+          <p><strong>Phone</strong><br/><a href="tel:+16195550155">+1 (619) 555-0155</a></p>
+          <p><strong>General</strong><br/><span class="mail-plain">hello@varinsky.com</span> <button type="button" class="copy-btn" data-copy="hello@varinsky.com">Copy</button></p>
+          <p><strong>Support</strong><br/><span class="mail-plain">support@varinsky.com</span> <button type="button" class="copy-btn" data-copy="support@varinsky.com">Copy</button></p>
+          <p><strong>Bookings</strong><br/><span class="mail-plain">bookings@varinsky.com</span> <button type="button" class="copy-btn" data-copy="bookings@varinsky.com">Copy</button></p>
+          <p><strong>Hours</strong><br/>Mon–Fri 7:30–18:00 · Sat 8:00–14:00</p>
+          <p><strong>Social</strong><br/>@varinsky</p>
+        </div>
+        <img class="solo" src="assets/img-7.jpg" alt="contact" style="margin-top:1rem" />
+        <div class="faq" style="margin-top:1.5rem"><details><summary>Where are you?</summary><p>350 Fifth Avenue, San Diego, CA. See the map on Visit.</p></details>
+<details><summary>How do I reach support?</summary><p>Use the Contact form or email support@varinsky.com. We reply during open hours.</p></details>
+<details><summary>How do I book?</summary><p>Send a message on Contact, email bookings@varinsky.com, or call +1 (619) 555-0155.</p></details>
+<details><summary>Are prices current?</summary><p>Listed prices are current and may shift with seasons — we update this site when they do.</p></details>
+<details><summary>Do you take groups?</summary><p>Yes for many bookings — tell us the size and date and we'll confirm what Varinsky can host.</p></details>
+<details><summary>What should I bring?</summary><p>Just yourself (and any notes on allergies, sizes, or preferences). We'll handle the rest.</p></details></div>
+      </div>
+    </div></section>
+    <section class="cta-band"><div class="shell">
+      <h2>Come see Varinsky</h2>
+      <p>Walk-ins welcome during open hours when capacity allows.</p>
+    </div></section>
+  </main>
+
+  <footer class="foot">
+    <div class="shell foot-grid">
+      <div>
+        <strong>Varinsky</strong>
+        <p>Repairs with photos on the estimate.</p>
+        <p class="foot-meta">350 Fifth Avenue<br/>San Diego, CA</p>
+      </div>
+      <div>
+        <p class="fh">Explore</p>
+        <a href="about.html">About</a>
+        <a href="offerings.html">Offerings</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="visit.html">Hours &amp; map</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <p class="fh">Support</p>
+        <a href="tel:+16195550155">+1 (619) 555-0155</a>
+        <p class="mail-plain">support@varinsky.com</p>
+        <p class="mail-plain">hello@varinsky.com</p>
+        <p class="foot-meta">Hours<br/>Mon–Fri 7:30–18:00 · Sat 8:00–14:00</p>
+        <p class="foot-meta">© 2026 Varinsky. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <div class="mobile-cta">
+    <a href="tel:+16195550155">Call</a>
+    <button type="button" data-open-book>Book</button>
+    <a href="visit.html">Map</a>
+  </div>
+  <div class="toast" data-toast hidden></div>
+
+  <div class="modal" data-book-modal hidden>
+    <div class="modal-card">
+      <button class="modal-close" type="button" data-close-book aria-label="Close">×</button>
+      <p class="eyebrow">Quick book</p>
+      <h3>Request a spot at Varinsky</h3>
+      <p class="lead">We confirm by email during open hours.</p>
+      <form class="contact-form compact" data-quick-book data-support="support@varinsky.com">
+        <label>Name<input name="name" required placeholder="Your name" /></label>
+        <label>Email<input type="email" name="email" required placeholder="you@email.com" /></label>
+        <label>When<input name="when" required placeholder="Day &amp; time" /></label>
+        <label>Notes<textarea name="message" rows="3" placeholder="Party size, preferences…"></textarea></label>
+        <button class="btn solid" type="submit">Send request</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="lightbox" data-lightbox hidden>
+    <button class="modal-close" type="button" data-lightbox-close aria-label="Close">×</button>
+    <img data-lightbox-img alt="" />
+    <div class="lightbox-nav">
+      <button type="button" data-lightbox-prev>‹</button>
+      <button type="button" data-lightbox-next>›</button>
+    </div>
+  </div>
+  <script src="site.js"></script>
+</body></html>
